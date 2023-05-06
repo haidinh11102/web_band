@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="nav">
+        <a href="#" class="navbar-item">Home</a>
+        <a href="#" class="navbar-item">About</a>
+        <a href="#" class="navbar-item">Members</a>
+        <a href="#" class="navbar-item">Contact</a>
+    </div>
+
+
+    <!-- Slides -->
+    <img class="slides"src="image/img_ch.jpg" alt="" width="100%">
+    <img class="slides" src="image/img_la.jpg" alt="" width="100%">
+    <img class="slides" src="image/img_ny.jpg" alt="" width="100%">
+    <script>
+        w3.slideshow(".slides", 2750)
+    </script>
+
+    <!-- about -->
+    <div id="about">
+        <h3 class="title">The Band</h3>
+        <p>this is our band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <!-- phần members -->
+    <div id="members">
+        <h3 class="title">Band members</h3>
+
+        <div class="member-img-contaier">
+            <img src="./image/img_bandmember.jpg" alt="">
+            <img src="./image/img_bandmember.jpg" alt="">
+            <img src="./image/img_bandmember.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- contact -->
+
+    <div id="contact">
+        <h3 class="title">The Contact</h3>
+        <p>Chicago, Us</p>
+        <p>Phone</p>
+        <p>Email</p>
+        <p>Fan? Drop a note</p>
+
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email">
+        <input type="number" placeholder="Phone">
+
+        <div class="button">
+            <button class="bnt">Send</button>
+        </div>
+    </div>
+
+<!--  -->
+    <div>
+        <img src="./image/map.jpg" alt="" width="100%" style="margin-top: 10px;" >
+    </div>
+
+</body>
+</html>
